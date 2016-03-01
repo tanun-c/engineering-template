@@ -76,12 +76,11 @@
 
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="container-fluid">
+    <div class="logo">
+      
+    </div>
     <div class="navbar-header">
       <?php if ($logo): ?>
-        <!-- <button class="navbar-btn btn-default pull-left">
-          MENU
-        </button> -->
-
         <div class="dropdown">
           <button class="navbar-btn btn-default pull-left dropdown-toggle" type="button" data-toggle="dropdown">
             MENU
@@ -89,14 +88,39 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <ul class="dropdown-menu main-menu">
-            <li><a href="#">เกี่ยวกับคณะ</a></li>
-            <li><a href="#">หน่วยงานและภาควิชา</a></li>
-            <li><a href="#">วิจัย</a></li>
-            <li><a href="#">หลักสูตร</a></li>
-            <li><a href="#">บุคลากรและคณาจารย์</a></li>
-            <li><a href="#">ข่าวสาร</a></li>
-          </ul>
+          <div class="dropdown-menu main-menu">
+            <div class="container">
+              <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href="#">เกี่ยวกับคณะ</a>
+              </div>
+
+              <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href="#">หน่วยงานและภาควิชา</a>
+              </div>
+
+              <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href="#">วิจัย</a>
+              </div>
+
+              <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href="#">หลักสูตร</a>
+              </div>
+
+              <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href="#">บุคลากรและคณาจารย์</a>
+              </div>
+
+              <div class="col-xs-12 col-sm-3 col-md-3">
+                <a href="#">ข่าวสาร</a>
+              </div>
+            </div>
+            <!-- <li></li> -->
+            <!-- <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li> -->
+          </div>
         </div>
       <?php endif; ?>
 

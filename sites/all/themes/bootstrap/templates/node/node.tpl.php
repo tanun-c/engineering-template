@@ -99,7 +99,7 @@
     <?php print render($content['comments']); ?>
   </article>
 <?php else:?>
-  <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> col-xs-12 col-sm-6 col-md-4 col-lg-3 clearfix"<?php print $attributes; ?>>
+  <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
     <a href="<?php print $node_url; ?>">
       <div class="teaser-image" style="background-image: url('<?php print file_create_url($content['field_cover_image']['#items'][0]['uri']); ?>')">
         <span class="article-title"><?php print $title; ?></span>
